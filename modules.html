@@ -1,0 +1,800 @@
+<html>
+
+    <head>
+        <title>JungleWare - Modules</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="favicon.png">
+    </head>
+
+    <body style="background-color: #000000ee;">
+
+        <p id="category">
+            General:
+            <p id="small">
+                The default key for opening the click gui is RIGHT SHIFT.
+            </p>
+            <p id="medium">
+                KeyBind:
+                <p id="small">
+                    Sets the activation key for the respective module.
+                </p>
+            </p>
+            <p id="medium">
+                Range:
+                <p id="small">
+                    Distance to search for thing.
+                </p>
+            </p>
+            <p id="medium">
+                FOV/2:
+                <p id="small">
+                    Field of view to search, divided by two.
+                </p>
+            </p>
+            <p id="medium">
+                Players / Offensive / Passive:
+                <p id="small">
+                    Type of entity that applies.
+                </p>
+            </p>
+
+        </p>
+        <br><br>
+
+        <p id="category">
+            Combat:
+            <p id="big">
+                CrystalAura:
+                <p id="medium">
+                    Speed:
+                    <p id="small">
+                        The lower it is, the faster it breaks crystals. Should've probably named it "Delay".
+                    </p>
+                </p>
+                <p id="medium">
+                    Rotate:
+                    <p id="small">
+                        Forgot to remove. [USELESS]
+                    </p>
+                </p>
+            </p><br>
+
+            <p id="big">
+                Criticals:
+                <p id="medium">
+                    type:
+                    <p id="small">
+                        Packet: Sends critical packets.
+                    </p>
+                    <p id="small">
+                        Jump: Jumps.
+                    </p>
+                    <p id="small">
+                        MiniJumps: Performs a minuscule jump.
+                    </p>
+                    </p>
+                </p>
+            </p><br>
+
+            <p id="big">
+                KillAura:
+                <p id="medium">
+                    Speed:
+                    <p id="small">
+                        Cooldwn: Waits for the critical bar to recharge.
+                    </p>
+                    <p id="small">
+                        Spam: Hits as fast as it can.
+                    </p>
+                </p>
+                <p id="medium">
+                    Rotate:
+                    <p id="small">
+                        Smooth: Drags your crosshair towards the target.
+                    </p>
+                    <p id="small">
+                        Snap: Snaps your crosshair directly on the target.
+                    </p>
+                    <p id="small">
+                        None: Doesn't move your crosshair (where applicable).
+                    </p>
+                </p>
+                <p id="medium">
+                    Priority:
+                    <p id="small">
+                        Angle: Prioritizes the target closest to your crosshair.
+                    </p>
+                    <p id="small">
+                        Health: Prioritizes the target with the least amount of health.
+                    </p>
+                </p>
+                <p id="medium">
+                    Attack:
+                    <p id="small">
+                        If it should actually hit the target.
+                    </p>
+                </p>
+                <p id="medium">
+                    Lock:
+                    <p id="small">
+                        Forgot to remove. [USELESS]
+                    </p>
+                </p>
+            </p>
+    
+            <p id="big">
+                Reach:
+                <p id="medium">
+                    Stepsize:
+                    <p id="small">
+                        Amount of teleport to reach the enemy.
+                    </p>
+                </p>
+            </p>
+        </p>
+        <br><br>
+
+        <p id="category">
+            Movement:
+            <p id="big">
+                GameSpeed:
+                <p id="medium">
+                    Speed:
+                    <p id="small">
+                        How fast you perceive time.
+                    </p>
+                </p>
+            </p>
+
+            <p id="big">
+                Scaffold:
+                <p id="medium">
+                    Lock:
+                    <p id="small">
+                        Lock the block in hand while scaffolding.
+                    </p>
+                </p>
+                <p id="medium">
+                    Swing:
+                    <p id="small">
+                        Swing hand while placing.
+                    </p>
+                </p>
+                <p id="medium">
+                    Type:
+                    <p id="small">
+                        Single: Uses the first hotbar slot which has blocks.
+                    </p>
+                    <p id="small">
+                        Cycle: Cycles through all hotbar slots that have blocks.
+                    </p>
+                </p>
+            </p>
+
+            <p id="big">
+                ClickTP:
+                <p id="medium">
+                    Distance:
+                    <p id="small">
+                        Maximum distance to teleport.
+                    </p>
+                </p>
+            </p>
+
+            <p id="big">
+                Nofall:
+                <p id="medium">
+                    Mode:
+                    <p id="small">
+                        Packet: Tells the server that you did not fall. It spams it in fact.
+                    </p>
+                    <p id="small">
+                        Slow: Breaks your fall several times while falling.
+                    </p>
+                </p>
+            </p>
+
+            <p id="big">
+                Flight:
+                <p id="medium">
+                    Mode:
+                    <p id="small">
+                        Velocity: Fly really precisely by modifying your velocity.
+                    </p>
+                    <p id="small">
+                        Saki: Lets you jump mid air.
+                    </p>
+                    <p id="small">
+                        Elytra: Flight specifically designed for elytra travelling.
+                    </p>
+                    <p id="small">
+                        Boat: Flight specifically designed for boat travelling.
+                    </p>
+                    <p id="small">
+                        NoClip: Allows you to fly through blocks.
+                    </p>
+                    <p id="small">
+                        AirWalk: Does not change your Y coordinate.
+                    </p>
+                </p>
+                <p id="medium">
+                    Speed:
+                    <p id="small">
+                        The speed at which you should move. (Does not affect: Saki, NoClip, AirWalk).
+                    </p>
+                </p>
+            </p>
+
+            <p id="big">
+                Vclip:
+                <p id="medium">
+                    Distance:
+                    <p id="small">
+                        Changes your position vertically, taking distance as a parameter.
+                    </p>
+                </p>
+            </p>
+
+            <p id="big">
+                Auto:
+                <p id="medium">
+                    Walk:
+                    <p id="small">
+                        Holds the forward key for you.
+                    </p>
+                </p>
+                <p id="medium">
+                    Sneak:
+                    <p id="small">
+                        Holds the sneak key for you, based on the sneak mode.
+                    </p>
+                </p>
+                <p id="medium">
+                    Sneak mode:
+                    <p id="small">
+                        Packet: Tells the server you are sneaking, without actually sneaking.
+                    </p>
+                    <p id="small">
+                        Vanilla: Holds the sneak key for you.
+                    </p>
+                </p>
+                <p id="medium">
+                    Sprint:
+                    <p id="small">
+                        Holds the sprint key for you, based on the sprint mode.
+                    </p>
+                </p>
+                <p id="medium">
+                    Sprint mode:
+                    <p id="small">
+                        Omni: Holds the sprint key for you in any direction.
+                    </p>
+                    <p id="small">
+                        Vanilla: Holds the sprint key for you only when you're going forward.
+                    </p>
+                </p>
+            </p>
+
+            <p id="big">
+                Step:
+                <p id="medium">
+                    Height:
+                    <p id="small">
+                        Maximum height to climb.
+                    </p>
+                </p>
+                <p id="medium">
+                    Safety:
+                    <p id="small">
+                        Prevents falling off of ledges while sneaking.
+                    </p>
+                </p>
+            </p>
+
+            <p id="big">
+                Blink:
+                <p id="medium">
+                    ShowPlayer:
+                    <p id="small">
+                        Leaves a fakeplayer at the position last seen by the server. (Only you can see it.)
+                    </p>
+                </p>
+                <p id="medium">
+                    Intrerrupt:
+                    <p id="small">
+                        Restart the blink once every specified amount of ticks. Having it on 0 keeps it on until toggled off.
+                    </p>
+                </p>
+            </p>
+
+            <p id="big">
+                Hop:
+                <p id="medium">
+                    Mode:
+                    <p id="small">
+                        Mhop: (Monkeyhop) Changes your air strafing speed.
+                    </p>
+                    <p id="small">
+                        Strafe: Changes the way you strafe.
+                    </p>
+                </p>
+                <p id="medium">
+                    Speed:
+                    <p id="small">
+                        Changes the speed at which you are moving.
+                    </p>
+                </p>
+                <p id="medium">
+                    Jump:
+                    <p id="small">
+                        Velocity: Changes your upwards velocity, allowing you to jump higher than normally possible.
+                    </p>
+                    <p id="small">
+                        Vanilla: Performs a normal jump.
+                    </p>
+                </p>
+                <p id="medium">
+                    AutoJump:
+                    <p id="small">
+                        Jumps automatically. (while you are moving)
+                    </p>
+                </p>
+                <p id="medium">
+                    Height:
+                    <p id="small">
+                        Jump height.
+                    </p>
+                </p>
+            </p>
+
+            <p id="big">
+                Slip:
+                <p id="medium">
+                    Friction:
+                    <p id="small">
+                        The amount of friction between the player and the block it is standing on.
+                    </p>
+                </p>
+            </p>
+        </p><br><br>
+        
+        <p id="category">
+            Visual:
+            <p id="big">
+                TimeChanger:
+                <p id="medium">
+                    Time:
+                    <p id="small">
+                        Changes the time of the day.
+                    </p>
+                </p>
+            </p>
+
+            <p id="big">
+                Fakeplayer:
+                <p id="small">
+                    Summons a fake player.
+                </p>
+            </p>
+
+            <p id="big">
+                Nightvision:
+                <p id="small">
+                    Makes everything brighter.
+                </p>
+            </p>
+
+            <p id="big">
+                Norender:
+                <p id="medium">
+                    Fog:
+                    <p id="small">
+                        Visually removes fog.
+                    </p>
+                </p>
+                <p id="medium">
+                    Nausea:
+                    <p id="small">
+                        Visually removes nausea.
+                    </p>
+                </p>
+                <p id="medium">
+                    PortalGUI:
+                    <p id="small">
+                        Allows you to use GUI components while inside a portal.
+                    </p>
+                </p>
+                <p id="medium">
+                    Pumpkin:
+                    <p id="small">
+                        Visually removes the pumpkin overlay.
+                    </p>
+                </p>
+                <p id="medium">
+                    Grass:
+                    <p id="small">
+                        Changes the color of the grass.
+                    </p>
+                </p>
+                <p id="medium">
+                    Foliage:
+                    <p id="small">
+                        Changes the color of the foliage.
+                    </p>
+                </p>
+                <p id="medium">
+                    Water:
+                    <p id="small">
+                        Changes the color of the water.
+                    </p>
+                </p>
+            </p>
+
+            <p id="big">
+                Nametags:
+                <p id="medium">
+                    Size:
+                    <p id="small">
+                        Changes the size of nametags.
+                    </p>
+                </p>
+            </p>
+
+            <p id="big">
+                Freecam:
+                <p id="medium">
+                    Speed:
+                    <p id="small">
+                        Changes the speed at which you move while freecaming.
+                    </p>
+                </p>
+            </p>
+
+            <p id="big">
+                NoDeath:
+                <p id="small">
+                    Allows you to look around places right after you die.
+                </p>
+            </p>
+
+            <p id="big">
+                AntiAim:
+                <p id="medium">
+                    Range:
+                    <p id="small">
+                        Changes the teleport range. (If position is enabled)
+                    </p>
+                </p>
+                <p id="medium">
+                    Position:
+                    <p id="small">
+                        Teleports you around a radius. (Serverside, so you don't see it, but others do)
+                    </p>
+                </p>
+                <p id="medium">
+                    Mode:
+                    <p id="small">
+                        Behind: Look behind you.
+                    </p>
+                    <p id="small">
+                        Headless: Look straight up.
+                    </p>
+                    <p id="small">
+                        Spin: Spin your head.
+                    </p>
+                </p>
+                <p id="medium">
+                    Spin:
+                    <p id="small">
+                        Do head movements.
+                    </p>
+                </p>
+                <p id="medium">
+                    NoForce:
+                    <p id="small">
+                        Forces your head position client side, so that it can't be changed by the server.
+                    </p>
+                </p>
+            </p>
+
+            <p id="big">
+                Xray:
+                <p id="medium">
+                    Mode:
+                    <p id="small">
+                        Targets the mentioned ore.
+                    </p>
+                </p>
+                <p id="medium">
+                    Containers:
+                    <p id="small">
+                        See containers too.
+                    </p>
+                </p>
+                <p id="medium">
+                    Other:
+                    <p id="small">
+                        See other weird blocks, like obsidian or bedrock too.
+                    </p>
+                </p>
+            </p>
+
+            <p id="big">
+                Zoom:
+                <p id="medium">
+                    Scale:
+                    <p id="small">
+                        Amount of zoom in.
+                    </p>
+                </p>
+            </p>
+
+            <p id="big">
+                ESP:
+                <p id="medium">
+                    Mode:
+                    <p id="small">
+                        Box: Makes a box around players.
+                    </p>
+                    <p id="small">
+                        Glow: Makes players glow through walls.
+                    </p>
+                    <p id="small">
+                        Walls: See players through walls.
+                    </p>
+                </p>
+                <p id="medium">
+                    Rainbow:
+                    <p id="small">
+                        Make the esp be rainbowy.
+                    </p>
+                </p>
+            </p>
+        </p><br><br>
+
+        <p id="category">
+            Misc:
+            <p id="big">
+                CoordsSaver:
+                <p id="small">
+                    Tells you your death coordinates if you die.
+                </p>
+            </p>
+            
+            <p id="big">
+                AutoClicker:
+                <p id="medium">
+                    LClick:
+                    <p id="small">
+                        Apply leftclicks.
+                    </p>
+                </p>
+                <p id="medium">
+                    Ldelay:
+                    <p id="small">
+                        Left click delay.
+                    </p>
+                </p>
+                <p id="medium">
+                    RClick:
+                    <p id="small">
+                        Apply rightclicks.
+                    </p>
+                </p>
+                <p id="medium">
+                    RDelay:
+                    <p id="small">
+                        Right click delay.
+                    </p>
+                </p>
+            </p>
+
+            <p id="big">
+                Antihunger:
+                <p id="small">
+                    Negates hunger.
+                </p>
+            </p>
+
+            <p id="big">
+                Anticheat:
+                <p id="medium">
+                    AntiBot:
+                    <p id="small">
+                        Removes entities that the client thinks are bots.
+                    </p>
+                </p>
+                <p id="medium">
+                    ABUUID:
+                    <p id="small">
+                        Check bot UUID to categorize as bot.
+                    </p>
+                </p>
+                <p id="medium">
+                    ABProfile:
+                    <p id="small">
+                        Check bot profile to categorize as bot.
+                    </p>
+                </p>
+                <p id="medium">
+                    ABLatency:
+                    <p id="small">
+                        Check bot latency to categorize as bot.
+                    </p>
+                </p>
+            </p>
+
+            <p id="big">
+                Autofish:
+                <p id="medium">
+                    Max time:
+                    <p id="small">
+                        Maximum amount of time before re-casting.
+                    </p>
+                </p>
+                <p id="medium">
+                    Detect rad:
+                    <p id="small">
+                        Maximum radius around bobber to check for catches.
+                    </p>
+                </p>
+            </p>
+
+            <p id="big">
+                Autoeat:
+                <p id="medium">
+                    Hunger:
+                    <p id="small">
+                        Minimum hunger to start eating.
+                    </p>
+                </p>
+                <p id="medium">
+                    Health:
+                    <p id="small">
+                        Minimum health to start eating.
+                    </p>
+                </p>
+            </p>
+
+            <p id="big">
+                Autolog:
+                <p id="medium">
+                    Min health:
+                    <p id="small">
+                        Minimum health needed to disconnect.
+                    </p>
+                </p>
+                <p id="medium">
+                    Players:
+                    <p id="small">
+                        Log on player detection.
+                    </p>
+                </p>
+            </p>
+
+            <p id="big">
+                Friend:
+                <p id="small">
+                    Adds/removes the player you middle click in/from your friends list
+                </p>
+            </p>
+        </p><br><br>
+
+        <p id="category">
+            Client:
+            <p id="big">
+                InfoHud:
+                <p id="medium">
+                    Pos:
+                    <p id="small">
+                        Shows you your current position.
+                    </p>
+                </p>
+                <p id="medium">
+                    Nether Pos:
+                    <p id="small">
+                        Shows you your current nether position.
+                    </p>
+                </p>
+                <p id="medium">
+                    Speed:
+                    <p id="small">
+                        Shows you your current speed.
+                    </p>
+                </p>
+                <p id="medium">
+                    Ping:
+                    <p id="small">
+                        Shows you your current ping.
+                    </p>
+                </p>
+            </p>
+
+            <p id="big">
+                ClickGUI:
+                <p id="medium">
+                    List:
+                    <p id="small">
+                        Rainbow: Displays the active module list with a rainbow line.
+                    </p>
+                    <p id="small">
+                        Static: Displays the active module list with a static color line.
+                    </p>
+                    <p id="small">
+                        Category: Displays the active module list, coloring each module's line based on the corresponding module category.
+                    </p>
+                    <p id="small">
+                        Hidden: Does not display the active module list. At all.
+                    </p>
+                </p>
+                <p id="medium">
+                    Descriptions:
+                    <p id="small">
+                        Show module descriptions on hover.
+                    </p>
+                </p>
+                <p id="medium">
+                    ChatToggle:
+                    <p id="small">
+                        Shows you what you just turned on.
+                    </p>
+                </p>
+                <p id="medium">
+                    ArrowKeys:
+                    <p id="small">
+                        Allows the usage of the top and bottom arrow keys to move the click gui.
+                    </p>
+                </p>
+                <p id="medium">
+                    Base:
+                    <p id="small">
+                        Changes the base color of the click gui.
+                    </p>
+                </p>
+                <p id="medium">
+                    Title:
+                    <p id="small">
+                        Changes the title color of the click gui.
+                    </p>
+                </p>
+                <p id="medium">
+                    Selected:
+                    <p id="small">
+                        Changes the selected color of the click gui.
+                    </p>
+                </p>
+                <p id="medium">
+                    FlatMode:
+                    <p id="small">
+                        Toggles the old, flat click gui.
+                    </p>
+                </p>
+                <p id="medium">
+                    SaveTheme:
+                    <p id="small">
+                        Saves and refreshes the current theme.
+                    </p>
+                </p>
+                <p id="medium">
+                    LoadTheme:
+                    <p id="small">
+                        Loads a theme from a file, and discards the current theme if a theme file is found.
+                    </p>
+                </p>
+            </p>
+
+            <p id="big">
+                Spoof:
+                <p id="small">
+                    Spoofs your client to the selected string.
+                </p>
+            </p>
+
+        </p><br><br>
+
+
+        <footer id="feet">
+            ©2022-2023 JungleWare Development Team
+        </footer>
+    </body>
+</html>
